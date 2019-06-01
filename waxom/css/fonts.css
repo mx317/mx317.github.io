@@ -1,0 +1,95 @@
+/* Montserrat */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-ExtraLight.eot');
+    src: url('../fonts/Montserrat/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Montserrat/Montserrat-ExtraLight.woff') format('woff'),
+        url('../fonts/Montserrat/Montserrat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat/Montserrat-Medium.woff') format('woff'),
+        url('../fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Light.eot');
+    src: url('../fonts/Montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat/Montserrat-Light.woff2') format('woff2'),
+        url('../fonts/Montserrat/Montserrat-Light.woff') format('woff'),
+        url('../fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Raleway */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Light.eot');
+    src: url('../fonts/Raleway/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway/Raleway-Light.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Light.woff') format('woff'),
+        url('../fonts/Raleway/Raleway-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-ExtraBold.eot');
+    src: url('../fonts/Raleway/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway/Raleway-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-ExtraBold.woff') format('woff'),
+        url('../fonts/Raleway/Raleway-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-SemiBold.eot');
+    src: url('../fonts/Raleway/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway/Raleway-SemiBold.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-SemiBold.woff') format('woff'),
+        url('../fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Medium.eot');
+    src: url('../fonts/Raleway/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway/Raleway-Medium.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Medium.woff') format('woff'),
+        url('../fonts/Raleway/Raleway-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Bold.eot');
+    src: url('../fonts/Raleway/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Bold.woff') format('woff'),
+        url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
