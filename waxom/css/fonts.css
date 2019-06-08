@@ -13,6 +13,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Montserrat';
     src: url('../fonts/Montserrat/Montserrat-Medium.eot');
     src: url('../fonts/Montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
@@ -24,6 +25,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Montserrat';
     src: url('../fonts/Montserrat/Montserrat-Light.eot');
     src: url('../fonts/Montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
@@ -37,6 +39,7 @@
 /* Raleway */
 
 @font-face {
+    font-display: swap;
     font-family: 'Raleway';
     src: url('../fonts/Raleway/Raleway-Light.eot');
     src: url('../fonts/Raleway/Raleway-Light.eot?#iefix') format('embedded-opentype'),
@@ -48,6 +51,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Raleway';
     src: url('../fonts/Raleway/Raleway-ExtraBold.eot');
     src: url('../fonts/Raleway/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
@@ -59,6 +63,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Raleway';
     src: url('../fonts/Raleway/Raleway-SemiBold.eot');
     src: url('../fonts/Raleway/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -70,6 +75,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Raleway';
     src: url('../fonts/Raleway/Raleway-Medium.eot');
     src: url('../fonts/Raleway/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
@@ -81,6 +87,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Raleway';
     src: url('../fonts/Raleway/Raleway-Bold.eot');
     src: url('../fonts/Raleway/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
