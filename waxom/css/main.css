@@ -1,3 +1,9 @@
+/* Import */
+@import url('fonts.css');
+@import url('slick.css');
+@import url('query.fancybox.min.css');
+@import url('media.css');
+
 /* Basic styles*/
 * {
 	-webkit-box-sizing: border-box;
