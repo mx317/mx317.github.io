@@ -2,7 +2,6 @@
 @import url('fonts.css');
 @import url('slick.css');
 @import url('query.fancybox.min.css');
-@import url('media.css');
 
 /* Basic styles*/
 * {
@@ -1441,3 +1440,5 @@ button:focus {
 	color: #a9a6a6;
 	text-decoration: none;
 }
+
+@import url('media.css');
