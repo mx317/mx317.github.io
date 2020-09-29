@@ -5064,8 +5064,8 @@ button {
     top: 153px;
   }
   .price__item-wrapper {
-    -ms-flex-preferred-size: 70%;
-        flex-basis: 70%;
+    -ms-flex-preferred-size: 85%;
+        flex-basis: 85%;
   }
   .price .price-item__price {
     font-size: 28px;
