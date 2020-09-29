@@ -1,0 +1,90 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	font-size: inherit;
+}
+
+body {
+	background-color: $primary-bg-color;
+	color: #f2f2f2;
+}
+
+img {
+	display: block;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+button {
+	border: none;
+	color: inherit;
+}
+
+.container {
+	position: relative;
+
+	max-width: 1330px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.page-section {
+	margin: 150px 0;
+}
+
+.title {
+	@extend %g-bold;
+	text-align: center;
+	font-size: 36px;
+	line-height: 44px;
+}
+
+.btn {
+	padding: 10px 24px;
+	@extend %g-medium;
+	font-size: 14px;
+	line-height: 18px;
+	background-color: $btn-color;
+	border-radius: 8px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 126, 255, 0.16);
+	transition: background-color 0.5s ease;
+	&:hover {
+		background-color: $btn-color-hover;
+	}
+}

@@ -1,0 +1,30 @@
+$primary-bg-color: #333333;
+$secondary-bg-color: #007eff;
+$card-bg-color: #4f4f4f;
+
+$text-white: #ffff;
+$text-grey: #bdbdbd;
+$text-blue: #007eff;
+
+$btn-color: #007eff;
+$btn-color-hover: #208eff;
+
+$border-gray: #828282;
+$border-red: #eb5757;
+
+$error: #eb5757;
+
+%g-medium {
+	font-family: "Gilroy-Medium", sans-serif;
+	font-weight: 500;
+}
+
+%g-semibold {
+	font-family: "Gilroy-SemiBold", sans-serif;
+	font-weight: 600;
+}
+
+%g-bold {
+	font-family: "Gilroy-Bold", sans-serif;
+	font-weight: 700;
+}
