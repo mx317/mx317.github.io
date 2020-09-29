@@ -47,13 +47,16 @@
 	}
 	&__bg-waves {
 		position: absolute;
-		top: 220px;
+		top: 230px;
 		left: 0;
 		width: 100%;
+		height: 100%;
+		overflow: hidden;
 	}
 }
 
 .fixed {
+	background-color: #2b2b2b;
 	background-color: #2b2b2beb;
 	padding: 15px 0;
 }
@@ -184,6 +187,7 @@
 	&__item-wrapper {
 		flex-basis: 33.333%;
 		padding: 0 15px;
+		margin-bottom: 50px;
 	}
 	&__item {
 		padding: 30px;

@@ -4553,12 +4553,15 @@ button {
 
 .header__bg-waves {
   position: absolute;
-  top: 220px;
+  top: 230px;
   left: 0;
   width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .fixed {
+  background-color: #2b2b2b;
   background-color: #2b2b2beb;
   padding: 15px 0;
 }
@@ -4714,6 +4717,7 @@ button {
   -ms-flex-preferred-size: 33.333%;
       flex-basis: 33.333%;
   padding: 0 15px;
+  margin-bottom: 50px;
 }
 
 .price__item {
@@ -4934,15 +4938,15 @@ button {
   }
 }
 
-@media (max-width: 895px) {
+@media (max-width: 920px) {
   .price__inner {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
   .price__item-wrapper {
-    margin-bottom: 50px;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+    margin: 0 auto 50px;
   }
 }
 
@@ -4996,20 +5000,21 @@ button {
     -webkit-transform: scale(0);
             transform: scale(0);
   }
-  .header__burger.bg-black {
-    background-color: #212020;
-  }
   .logo {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     font-size: 28px;
   }
   .menu {
-    position: fixed;
-    top: 35%;
-    left: 100%;
+    position: absolute;
+    top: -10px;
+    left: 105%;
     width: 100%;
     min-height: auto;
-    background-color: #212020;
-    padding: 60px 25px 25px;
+    background-color: #2b2b2b;
+    background-color: #2b2b2beb;
+    padding: 70px 25px 25px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
@@ -5058,6 +5063,13 @@ button {
   .header__bg-waves {
     top: 153px;
   }
+  .price__item-wrapper {
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+  }
+  .price .price-item__price {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -5076,10 +5088,6 @@ button {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .price__item-wrapper {
-    -ms-flex-preferred-size: 80%;
-        flex-basis: 80%;
-  }
 }
 
 @media (max-width: 550px) {
@@ -5093,10 +5101,6 @@ button {
 @media (max-width: 500px) {
   .page-section {
     margin: 40px 0;
-  }
-  .price__item-wrapper {
-    -ms-flex-preferred-size: 90%;
-        flex-basis: 90%;
   }
 }
 
